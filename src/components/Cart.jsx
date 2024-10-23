@@ -8,7 +8,7 @@ function Cart({ cart, clearCart, completePurchase }) {
       <h1>Kundvagn</h1>
       <ul>
         {cart.map((product, index) => (
-          <li key={index}>
+          <li key={product.id}> {/* Använd product.id om möjligt */}
             {product.name} x {product.quantity} = {product.price * product.quantity} kr
           </li>
         ))}

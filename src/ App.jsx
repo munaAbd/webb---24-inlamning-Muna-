@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
-import Cart from './components/Cart';
+import Cart from './components/Cart'; // Antag att Cart är default export
 import Checkout from './components/Checkout';
 
 function App() {

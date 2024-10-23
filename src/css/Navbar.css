@@ -1,0 +1,18 @@
+nav {
+    background-color: #f8f9fa; /* Ljus bakgrundsfärg */
+    padding: 15px; /* Utrymme inuti navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+  }
+  
+  nav a {
+    margin-right: 20px; /* Utrymme mellan länkar */
+    text-decoration: none; /* Ingen understrykning */
+    color: #007bff; /* Länkfärg */
+    font-weight: bold; /* Fet stil för länktext */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Understrykning vid hover */
+    color: #0056b3; /* Mörkare färg vid hover */
+  }
+   
