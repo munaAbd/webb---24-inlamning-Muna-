@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { db } from '../firebase';
-import ProductCard from './ProductCard';
+import { db } from '../firebase';  // Se till att importera från rätt sökväg
+import { collection, getDocs } from 'firebase/firestore';  // Firestore-funktioner
+
+
+
 
 function ProductList({ addToCart }) {
   const [products, setProducts] = useState([]);
