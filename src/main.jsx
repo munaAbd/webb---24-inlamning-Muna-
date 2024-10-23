@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './ App'; // Huvudkomponenten för din app
+import App from './ app'; // Huvudkomponenten för din app
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
